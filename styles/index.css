@@ -7,6 +7,18 @@
 .search-bar-container{
     background-image: url('https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg');
     height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-input{
+    height: 40px;
+    width: 600px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
 }
 
 .hotel-list-container{

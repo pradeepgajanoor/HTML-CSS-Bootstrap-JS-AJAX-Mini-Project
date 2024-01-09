@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/common.css" />
     <link rel="stylesheet" href="./styles/list.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="page-container">
@@ -13,16 +14,20 @@
         <a href="./index.html"
           ><img src="./assests/images/logo.png" alt="logo" class="logo"
         /></a>
-        <a href="./login.html">Login</a>
+        <a href="./login.html" class="black-text">Login</a>
       </header>
 
       <section>
-        <ul>
-          <li><a href="#list-view">List View</a></li>
-          <li><a href="#map-view">map View</a></li>
-        </ul>
 
-        <div class="content" id="list-view">
+        <div class="list-items-container">
+          <ul class="custom-menu">
+            <li><a href="#list-view" class="black-text">List View</a></li>
+            <li><a href="#map-view" class="black-text">map View</a></li>
+          </ul>
+        </div>
+        
+
+        <div class="cards-content " id="list-view">
           <a href="./detail.html">
             <div class="list-card">
               <img
@@ -73,9 +78,12 @@
 
       <footer class="footer-container">
         <div>
-          <a href="#">View More >>></a>
-          <a href="./contact.html" target="_blank">Contact Us >>></a>
+          <a href="#" class="black-text">View More</a>
+          <a href="./contact.html" target="_blank" class="black-text">Contact Us</a>
         </div>
+
+        <p>2024 Room search Pvt. Ltd</p>
+
         <a href="https://www.facebook.com">
           <img
             src="./assests/images/facebook.png"
@@ -98,7 +106,7 @@
             class="social-media-logo"
           />
         </a>
-        <p>2024 Room search Pvt. Ltd</p>
+        
       </footer>
     </div>
   </body>

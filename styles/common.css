@@ -6,10 +6,11 @@ html{
 body{
     margin: 0px;
     box-sizing: border-box;
+    font-family: Ubuntu;
 }
 
 .logo{
-    height: 200px;
+    height: 80px;
     width: auto;
 }
 
@@ -29,8 +30,62 @@ body{
 
 .header-container{
     background-color: rosybrown;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px 5px 20px;
+    position: sticky;
+    top: 0;
 }
 
 .footer-container{
     background-color: rosybrown;
+    background-color: rosybrown;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px 5px 20px;
+    position: sticky;
+    bottom: 0;
+}
+
+.payment-button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+}
+
+
+.black-text{
+    text-decoration: none;
+    color: black;
+}
+
+.custom-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.custom-menu li {
+    display: inline; /* or 'inline-block' if you need to apply margins/padding */
+    margin-right: 10px; /* Adjust the spacing between items */
+}
+
+.black-text {
+    text-decoration: none;
+    color: black;
+}
+
+.black-text:hover {
+    text-decoration: underline;
+}
+
+.list-items-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }

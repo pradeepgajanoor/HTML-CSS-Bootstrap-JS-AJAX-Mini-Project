@@ -8,3 +8,10 @@
     width: 100%;
     height: auto;
 }
+
+.cards-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
