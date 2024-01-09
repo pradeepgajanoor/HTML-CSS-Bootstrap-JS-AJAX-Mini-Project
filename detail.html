@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/common.css" />
     <link rel="stylesheet" href="./styles/detail.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="page-container">
@@ -19,37 +22,64 @@
 
       <section>
         <div class="content">
-          <img
-            src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
-            alt="logo"
-            class="hotel-image"
-          />
 
-          <form action="./payment.html" method="get">
-            <div>
-              <label for="adults">Adults:</label>
-              <input type="number" id="adults" name="adults" required min="1" />
+
+          <div class="img-form-container">
+            <div class="detail-img">
+              <img
+                src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"
+                alt="logo"
+                class="hotel-image"
+              />
             </div>
-            <div>
-              <label for="name">Name:</label>
-              <input type="text" id="name" name="name" required />
+            <div class="form">
+              <form action="./payment.html" method="get">
+                <div class="form-label-input-container">
+                  <div class="form-label-container">
+                    <label for="adults">Adults:</label>
+                  </div>
+
+                  <input
+                    type="number"
+                    id="adults"
+                    name="adults"
+                    required
+                    min="1"
+                    class="form-input-field"
+                  />
+                </div>
+                <div class="form-label-input-container">
+                  <div class="form-label-container">
+                    <label for="name">Name:</label>
+                  </div>
+                  <input type="text" id="name" name="name" required class="form-input-field"/>
+                </div>
+                <div class="form-label-input-container">
+                  <div class="form-label-container">
+                    <label for="from">From Date:</label>
+                  </div>
+                  <input type="date" id="from" name="from" required class="form-input-field"/>
+                </div>
+                <div class="form-label-input-container">
+                  <div class="form-label-container">
+                    <label for="to">To Date:</label>
+                  </div>
+                  <input type="date" id="to" name="to" required class="form-input-field"/>
+                </div>
+                <div class="form-label-input-container">
+                  <div class="form-label-container">
+                    <label for="total">Total:</label>
+                  </div>
+                  <input type="text" id="total" name="total" disabled class="form-input-field"/>
+                </div>
+                <div class="submit-button-container">
+                  <button type="submit">Book now</button>
+                </div>
+              </form>
             </div>
-            <div>
-              <label for="from">From Date:</label>
-              <input type="date" id="from" name="from" required />
-            </div>
-            <div>
-              <label for="to">To Date:</label>
-              <input type="date" id="to" name="to" required />
-            </div>
-            <div>
-              <label for="total">Total:</label>
-              <input type="text" id="total" name="total" disabled />
-            </div>
-            <div>
-              <button type="submit">Book now</button>
-            </div>
-          </form>
+          </div>
+
+
 
           <div class="hotel-details">
             <h3>Radison Blu Hotel</h3>
@@ -84,7 +114,9 @@
       <footer class="footer-container">
         <div>
           <a href="#" class="black-text">View More</a>
-          <a href="./contact.html" target="_blank" class="black-text">Contact Us</a>
+          <a href="./contact.html" target="_blank" class="black-text"
+            >Contact Us</a
+          >
         </div>
 
         <a href="https://www.facebook.com">

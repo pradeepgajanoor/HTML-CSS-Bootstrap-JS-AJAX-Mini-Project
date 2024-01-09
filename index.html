@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/common.css" />
     <link rel="stylesheet" href="./styles/index.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="page-container">
-      <header class="header-container ">
+      <header class="header-container">
         <img src="./assests/images/logo.png" alt="logo" class="logo" />
         <a href="./login.html" class="black-text" class="black-text">Login</a>
       </header>
@@ -18,42 +21,67 @@
       <section>
         <div class="search-bar-container">
           <form action="#" method="get">
-            
-              <input type="text" id="search" name="search" placeholder="City" class="search-input" />
-            
+            <input
+              type="text"
+              id="search"
+              name="search"
+              placeholder="City"
+              class="search-input"
+            />
           </form>
         </div>
 
         <div class="hotel-list-container">
           <a href="./list.html">
-            <img
-              src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg"
-              alt="city"
-              class="index-city"
-            />
+            <div class="index-city shadow">
+              <div class="overlay">Delhi</div>
+              <img
+                src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg"
+                alt="city"
+                class="city-img"
+              />
+            </div>
           </a>
-          <img
-            src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg"
-            alt="city"
-            class="index-city"
-          />
-          <img
-            src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg"
-            alt="city"
-            class="index-city"
-          />
-          <img
-            src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg"
-            alt="city"
-            class="index-city"
-          />
+
+          <div class="index-city shadow">
+            <div class="overlay">Goa</div>
+            <img
+              src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg"
+              alt="city"
+              class="city-img"
+            />
+          </div>
+
+          <div class="index-city shadow">
+            <div class="overlay">charminar</div>
+            <img
+              src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg"
+              alt="city"
+              class="city-img"
+            />
+          </div>
+
+          <div class="index-city shadow">
+            <div class="overlay">kolkata-calcutta</div>
+            <img
+              src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg"
+              alt="city"
+              class="city-img"
+            />
+          </div>
         </div>
       </section>
 
       <footer class="footer-container">
         <div>
           <a href="#" class="black-text" class="black-text">View More</a>
-          <a href="./contact.html" target="_blank" class="black-text" class="black-text">Contant us</a>
+          <a
+            href="./contact.html"
+            target="_blank"
+            class="black-text"
+            class="black-text"
+            >Contant us</a
+          >
         </div>
 
         <p>2024 Room search Pvt. Ltd</p>
@@ -80,7 +108,6 @@
             class="social-media-logo"
           />
         </a>
-        
       </footer>
     </div>
   </body>
