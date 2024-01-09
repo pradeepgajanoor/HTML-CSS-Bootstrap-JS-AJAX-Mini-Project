@@ -1,4 +1,17 @@
 .index-city{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.search-bar-container{
+    background-image: url('https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg');
     height: 300px;
-    width: 300px;
+}
+
+.hotel-list-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 30px auto 30px auto;
 }

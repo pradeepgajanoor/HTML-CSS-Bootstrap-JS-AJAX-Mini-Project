@@ -1,0 +1,22 @@
+
+
+.content{
+  width: 50%;
+  margin: 20px auto;
+  background-color: rgb(132,136,139);
+}
+
+.list-hotel-img{
+    width: 100%;
+}
+
+.customer-details-container{
+    margin: 20px;
+}
+
+.payment-details-container{
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}

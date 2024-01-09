@@ -1,0 +1,10 @@
+.list-card{
+    width: 400px;
+    margin: 20px;
+    background-color: rgb(132,136,139);
+}
+
+.list-hotel-img{
+    width: 100%;
+    height: auto;
+}
